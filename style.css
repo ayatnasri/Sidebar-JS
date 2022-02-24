@@ -17,6 +17,7 @@ body{
     background:transparent;
     border-color: transparent;
     color: hsl(205, 78%, 60%);
+    transition: all 0.3s linear;
     cursor: pointer;
     animation: bounce 2s ease-in-out infinite;
 }
@@ -58,6 +59,7 @@ body{
 .close-btn {
     font-size: 1.7rem;
     background: transparent;
+    transition: all 0.3s linear;
     border-color: transparent;
     color: hsl(360, 67%, 44%);
 }
